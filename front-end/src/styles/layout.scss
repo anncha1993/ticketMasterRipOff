@@ -1,0 +1,32 @@
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+
+  h2,
+  h3 {
+    width: 100%;
+  }
+
+  .eventcard {
+    background-color: aquamarine;
+    padding: 1rem;
+    min-width: 200px;
+    max-width: 32%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.passcard {
+  background-color: aquamarine;
+  padding: 1rem;
+  min-width: 200px;
+  max-width: 32%;
+  img {
+    width: 100%;
+  }
+}

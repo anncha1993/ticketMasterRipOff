@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  h1 {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    align-items: baseline;
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
